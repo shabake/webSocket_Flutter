@@ -2,6 +2,11 @@
 
 Flutter webSocketDemo
 
+WebSocket 是 HTML5 开始提供的一种在单个 TCP 连接上进行全双工通讯的协议。
+
+在 WebSocket API 中，浏览器和服务器只需要完成一次握手，两者之间就直接可以创建持久性的连接，并进行双向数据传输。
+
+![s.jpg](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5ea3fb84-f9f0-4860-ae4b-dcb659f9e5f1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200801T161619Z&X-Amz-Expires=86400&X-Amz-Signature=622f0d097027c74c0ea4e1e99c72d41388ae41e73aec9c64021b64ce4191a087&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 ## Getting Started
 
 
