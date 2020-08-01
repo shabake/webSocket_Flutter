@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
       title: title,
       home: new MyHomePage(
         title: title,
-        channel: new IOWebSocketChannel.connect('ws://echo.websocket.org'),
       ),
     );
   }
@@ -28,9 +27,8 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   final String title;
-  final WebSocketChannel channel;
 
-  MyHomePage({Key key, @required this.title, @required this.channel})
+  MyHomePage({Key key, @required this.title})
       : super(key: key);
 
   @override
