@@ -1,7 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:web_socket_channel/io.dart';
 import 'package:flutter/material.dart';
-import 'package:web_socket_channel/web_socket_channel.dart';
 
 /// 测试地址 http://www.websocket.org/echo.html
 
@@ -123,11 +122,11 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: new FloatingActionButton(
+      floatingActionButton: this._status == true ? new FloatingActionButton(
         onPressed: _sendMessage,
         tooltip: 'Send message',
         child: new Text("发送"),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ):Text("") // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 
